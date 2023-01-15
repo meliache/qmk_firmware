@@ -12,3 +12,5 @@ RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes
 ENCODER_ENABLE = yes
+# allow to capitalize word via key. requires `BOTH_SHIFTS_TURNS_ON_CAPS_WORD` in config.h
+CAPS_WORD_ENABLE = yes
