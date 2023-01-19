@@ -42,10 +42,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_EFFECT_STATIC_GRADIENT
 #define RGBLIGHT_EFFECT_RGB_TEST
 #define RGBLIGHT_EFFECT_ALTERNATING
-#define RGBLIGHT_EFFECT_TWINKLE
+/* #define RGBLIGHT_EFFECT_TWINKLE // redefined according  */
 #define RGBLIGHT_DEFAULT_VAL 128
 #define RGBLIGHT_DEFAULT_MODE (RGBLIGHT_MODE_RAINBOW_SWIRL + 2)
 #define RGBLIGHT_SLEEP  // disable backlight when notebook is turned off or sleeping
 
 // caps word, requires `ENABLE_CAPS_WORD` in rules.mk
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+#define TAPPING_TERM 300 // ms, default: 200

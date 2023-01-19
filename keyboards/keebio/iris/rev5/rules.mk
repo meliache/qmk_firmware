@@ -14,3 +14,4 @@ SPLIT_KEYBOARD = yes
 ENCODER_ENABLE = yes
 # allow to capitalize word via key. requires `BOTH_SHIFTS_TURNS_ON_CAPS_WORD` in config.h
 CAPS_WORD_ENABLE = yes
+# TAP_DANCE_ENABLE = yes
