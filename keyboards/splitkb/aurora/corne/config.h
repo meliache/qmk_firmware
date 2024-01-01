@@ -18,5 +18,12 @@
 
 // Not yet available in `info.json`
 #ifdef OLED_ENABLE
-#   define OLED_FONT_H "keyboards/splitkb/aurora/corne/glcdfont.c"
+#    define OLED_FONT_H "keyboards/splitkb/aurora/corne/glcdfont.c"
 #endif
+
+/* // Power indicator LED's as caps lock indicator */
+/* // taken from https://docs.splitkb.com/hc/en-us/articles/5799711553820-Power-LED */
+/* #define LED_CAPS_LOCK_PIN 24 */
+/* #define LED_PIN_ON_STATE 0 */
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
