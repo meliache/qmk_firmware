@@ -17,5 +17,5 @@ DEFAULT_FOLDER = splitkb/aurora/corne/rev1
 
 CAPS_WORD_ENABLE = yes
 
-# # Convert from Elite-C to Liatris
-# CONVERT_TO=liatris
+# Convert from Elite-C to Liatris
+CONVERT_TO=liatris
