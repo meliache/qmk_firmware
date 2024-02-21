@@ -27,3 +27,17 @@
 /* #define LED_PIN_ON_STATE 0 */
 
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+
+/* time window in which hold-tap keys are interpreted as tabs (if no other key is pressed)
+default: 200 ms*/
+#define TAPPING_TERM 350
+
+/* If you press a dual-role key, press another key, and then release the
+   dual-role key, all within the tapping term, by default the dual-role key will
+   perform its tap action. If the HOLD_ON_OTHER_KEY_PRESS option is enabled, the
+   dual-role key will perform its hold action instead. */
+#define HOLD_ON_OTHER_KEY_PRESS
+
+/* With retro tapping enabled, releasing the key without pressing another will
+   send the original keycode even if it is outside the tapping term. */
+#define RETRO_TAPPING
